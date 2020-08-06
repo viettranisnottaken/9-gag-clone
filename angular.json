@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "nine-gag-clone"
+    }
+  },
+  "defaultProject": "nine-gag-clone",
+  "cli": {
+    "analytics": false
+  }
 }
