@@ -1,1 +1,40 @@
-<p>navbar works!</p>
+<nav class="navbar">
+  <a href="" class="navbar__brand">9GAG</a>
+  <div class="navbar__menu">
+    <ul class="navbar__items">
+      <li *ngFor="let item of navItems" class="navbar__item">
+        <a href="" class="navbar__link">a</a>
+      </li>
+    </ul>
+  </div>
+  <div class="navbar__functions">
+    <div class="navbar__functions__general">
+      <ul class="navbar__items">
+        <li class="navbar__item">
+          <a href="" class="navbar__functions__theme-switch navbar__link"
+            >theme</a
+          >
+        </li>
+        <li class="navbar__item">
+          <a href="" class="navbar__functions__search navbar__link">search</a>
+        </li>
+      </ul>
+    </div>
+    <div class="navbar__functions__visitor">
+      <!-- login + signup -->
+    </div>
+    <div class="navbar__functions__user">
+      <ul class="navbar__items">
+        <li class="navbar__item">
+          <a
+            href=""
+            class="navbar__functions__theme-switch navbar__link"
+            (click)="openFunction()"
+            [isOpen]=""
+            >noti</a
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
