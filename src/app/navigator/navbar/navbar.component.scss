@@ -1,0 +1,57 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  padding: 0 20px;
+  background-color: #000000;
+  color: #ffffff;
+  width: 100vw;
+  height: 60px;
+
+  &__brand {
+    text-decoration: none;
+    color: #ffffff;
+    display: inline-block;
+    font-size: x-large;
+    font-weight: 700;
+    height: 100%;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  &__menu {
+  }
+
+  &__items {
+    list-style: none;
+    display: flex;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 60px;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: #ffffff;
+    line-height: 100%;
+  }
+
+  &__functions {
+    display: flex;
+
+    &__general {
+    }
+
+    &__visitor {
+    }
+
+    &__user {
+    }
+  }
+}
